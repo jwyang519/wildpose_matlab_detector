@@ -1,0 +1,53 @@
+Training options:
+
+  <a href="matlab:helpPopup('nnet.cnn.TrainingOptionsADAM')" style="font-weight:bold">TrainingOptionsADAM</a> with properties:
+
+             GradientDecayFactor: 0.9000
+                       MaxEpochs: 100
+                InitialLearnRate: 1.0000e-04
+               LearnRateSchedule: 'piecewise'
+             LearnRateDropFactor: 0.8000
+             LearnRateDropPeriod: 20
+                   MiniBatchSize: 1
+                         Shuffle: 'every-epoch'
+         CheckpointFrequencyUnit: 'epoch'
+        PreprocessingEnvironment: 'serial'
+                         Verbose: 1
+                VerboseFrequency: 50
+                  ValidationData: [1×1 matlab.io.datastore.TransformedDatastore]
+             ValidationFrequency: 10
+              ValidationPatience: 5
+                         Metrics: []
+             ObjectiveMetricName: 'loss'
+            ExecutionEnvironment: 'auto'
+                           Plots: 'none'
+                       OutputFcn: []
+                  SequenceLength: 'longest'
+            SequencePaddingValue: 0
+        SequencePaddingDirection: 'right'
+                InputDataFormats: "auto"
+               TargetDataFormats: "auto"
+         ResetInputNormalization: 0
+    BatchNormalizationStatistics: 'moving'
+                   OutputNetwork: 'auto'
+                    Acceleration: "auto"
+                  CheckpointPath: '/Volumes/T7_Shield/WildPose/WildPose_Proj/checkpoints/training_2025-09-06_11-14-27'
+             CheckpointFrequency: 5
+        CategoricalInputEncoding: 'integer'
+       CategoricalTargetEncoding: 'auto'
+                L2Regularization: 1.0000e-04
+         GradientThresholdMethod: 'l2norm'
+               GradientThreshold: Inf
+      SquaredGradientDecayFactor: 0.9990
+                         Epsilon: 1.0000e-08
+
+
+
+
+Dataset Information:
+Total samples: 7
+Training samples: 7 (100.0%)
+Validation samples: 7 (100.0%)
+Test samples: 7 (100.0%)
+
+Class names: Cheetah, Eagle, Gemsbok, Giraffe, Jackal, Lion, Ostrich, SecretaryBird, Springbok, Wildbeest
